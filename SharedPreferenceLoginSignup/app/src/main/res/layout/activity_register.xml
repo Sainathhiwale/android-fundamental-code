@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/et_rename"
+        android:hint="name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_readdress"
+        android:hint="Address"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_reemail"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_repassword"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+<Button
+    android:layout_marginTop="20dp"
+    android:onClick="signup"
+    android:text="Signup"
+    android:textStyle="bold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:id="@+id/bt_signup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
